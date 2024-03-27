@@ -1,0 +1,48 @@
+
+Buchungen in FB50 zum Kennenlernen des SAP Enjoy Buchungsprogramm
+
+Beleg- und Buchungsdatum immer gleich setzen!
+
+Aufwandsbuchungen werden mit 6er Konten erzeugt, nur diese werden
+mit einer Kostenstelle gebucht. Verwenden Sie die Kostenstelle aus Ihrer Übung.
+
+Aufwandsbuchungen werden mit Steuerkennzeichen gebucht, 
+verwenden Sie nur für die 6er Konten Vorsteuer Inland 19% (V1)
+
+Text: 1224Test-0#-##  
+
+
+28.12.2023  -  282000 Soll  -  282120 Haben  -  Betrag:     3.480     Euro (100000### FB50) 
+17.02.2024  -  605030 Soll  -  281000 Haben  -  Betrag:     2.570     Euro (100000### FB50) 
+26.02.2024  -  282120 Soll  -  605030 Haben  -  Betrag:   11.225     Euro (100000### FB50) 
+29.11.2024  -  630000 Soll  -  282000 Haben  -  Betrag:     2.550     Euro (100000### FB50) ohne Steuer
+
+-------------------------------------------------------------
+
+In Ihren Favoriten sollte die Verknüpfung für den Fiori Launchpad sein, melden Sie sich mit Ihren Anmeldedaten an. Der Aufabu des Fiori Launchpad kann unter Umständen ein wenig dauern. Rufen Sie den Verweis "Financial Finanzwesen auf) dort sollten Sie Belege buchen finden.
+
+Fiori Launchpad   (Fiori) Text: 1224 mit SAPF-S4H-01-00
+
+31.12.2023  -  282000 Soll  -  282120 Haben  -  Betrag:     2.310     Euro  (1000000## Fiori Launchpad)
+05.11.2023  -  630000 Soll  -  282000 Haben  -  Betrag:     1.480     Euro  (1000000## Fiori Launchpad)
+11.01.2024  -  605030 Soll  -  282000 Haben  -  Betrag:     6.130     Euro  (1000000## Fiori Launchpad)
+05.03.2024  -  630000 Soll  -  282120 Haben  -  Betrag:     5.180     Euro  (1000000## Fiori Launchpad)
+
+
+Rufen Sie das Beleg Kompaktjournal auf: diese Transaktion befindet sich in Ihren Favoriten/Finanzwesen/Hauptbuch/Infosystem
+
+Hier erstellen Sie eine Liste über Ihre heute gebuchten Belege. (3-Farbensymbol benutzen) Keine Belegnummern eintragen, das Ziel diese Belege zusammenzustellen, kann anders ausgewählt werden.
+
+Drucken Sie die Liste um diese in ihre Spoolaufträge zu legen (Menüleiste/Liste/Drucken), danach senden Sie diese mit Mail an 1224_BAL-00.
+
+Vorgehen: über Menüleiste/System/eigene Spoolaufträge kommen Sie in Ihre Spoolauftragsdatenbank. In Dieser markieren Sie Ihren Beleg und schauen Sie sich den Inhalt der Liste an. Danach können Sie über Menüleiste/System/Liste/senden
+
+
+
+
+
+
+
+
+
+

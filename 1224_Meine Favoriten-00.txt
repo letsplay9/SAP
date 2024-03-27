@@ -1,0 +1,85 @@
+TR0000100002/UI2/FLP                                        SAP Fiori Launchpad                                                                                                                 
+  0000100003                                                Finanzwesen                                                                                                                         
+  0000100004                                                Stapelverarbeitung (BatchInput)                                                                                                     
+  0000100005                                                Einkaufsprozess MM                                                                                                                  
+  0000100006                                                Verkaufsprozess SD                                                                                                                  
+  0000100007                                                Personalwesen HCM                                                                                                                   
+  0000100008                                                Meine Dokumente                                                                                                                     
+TR0000300009FB08                                            Einzelstorno                                                                                        BBBA2744ADD7D211AE6A00A0C9EAD00F
+  0000300010                                                Hauptbuch                                                                                                                           
+  0000300011                                                Debitor                                                                                                                             
+  0000300012                                                Bankbuchhaltung                                                                                                                     
+  0000300013                                                Anlagen nur für Strunz                                                                                                              
+TR0000400014FBD1                                            Schritt 1: Dauerbuchung erfassen                                                                                                    
+TR0000400015F.15                                            Schritt 2: Beleg Liste                                                                              1BBB2744ADD7D211AE6A00A0C9EAD00F
+TR0000400016F.14                                            Schritt 3: Beleg zum Buchen vorbereiten                                                             1ABB2744ADD7D211AE6A00A0C9EAD00F
+TR0000400017SM35                                            Schritt 4: Batch-Input (bitte Pfad Menüleiste beachten)                                                                             
+TR0000500018XK01                                            Schritt 1: Kreditor Anlegen für MM                                                                  4829556AFDD7D211A81C0060B03C2BA7
+TR0000500019MMF1                                            Schritt 2: Material anlegen (Fertigerzeugnis)                                                       9F2B556AFDD7D211A81C0060B03C2BA7
+TR0000500020ME21N                                           Schritt 3: Bestellung anlegen (Lieferant)                                                           73FBF19948D7D211A81C0060B03C2BA7
+TR0000500021ME22N                                           Schritt 4: ändern für Ausdruck Bestellschein                                                        78FBF19948D7D211A81C0060B03C2BA7
+TR0000500022ME9F                                            Schritt 5: Nachrichten ausgeben f. Bestellschein drucken                                            9028556AFDD7D211A81C0060B03C2BA7
+TR0000500023MIGO                                            Schritt 6: Wareneingang                                                                             9AFBF19948D7D211A81C0060B03C2BA7
+TR0000500024MIRO                                            Schritt 7: Logistik-Rechnungsprüfung für FI (Kreditor)                                              9DFBF19948D7D211A81C0060B03C2BA7
+TR0000500025MMBE                                            Schritt 7.1: Bestandsübersicht                                                                                                      
+TR0000500026FBL1N                                           Schritt 8: offene Postenliste                                                                       B6BC2744ADD7D211AE6A00A0C9EAD00F
+TR0000500027F-53                                            Schritt 9: ZA für Kreditorenrechnung                                                                7BBC2744ADD7D211AE6A00A0C9EAD00F
+TR0000500028MR8M                                            (optional) Rechnungsbeleg stornieren                                                                5F2C556AFDD7D211A81C0060B03C2BA7
+  0000600029                                                Schritt 1: Stammdaten Kunde                                                                                                         
+  0000600030                                                Schritt 2: Material erweitern für SD                                                                                                
+  0000600031                                                Schritt 3: ohne Bestellung ins Lager                                                                                                
+  0000600032                                                Schritt 4/5/6: Verkauf                                                                                                              
+  0000600033                                                Schritt 7: Versand + Transport                                                                                                      
+  0000600034                                                Schritt 8: Fakturierung/FI Beleg                                                                                                    
+  0000600035                                                Schritt 9: Finanzwesen                                                                                                              
+  0000700036                                                PA - Mitarbeiter bearbeiten                                                                                                         
+  0000700037                                                Organisationsmanagement                                                                                                             
+  0000700038                                                Aufgabenkatalog                                                                                                                     
+  0000700039                                                Personalabrechnung                                                                                                                  
+TR0000800040S_ALR_87012087                                  Adressliste Kreditoren                                                                                                              
+OT0000800041URL                                             Meine SAP Bibliothek (SAP ERP 6.0 EhP5)                                                                                             https://help.sap.com/viewer/386df9e50eee4f7eb6e2a70155129227/6.05.17/de-DE
+OT0000800042URL                                             SAPTraining FH Würzburg (Dokumente+Animation)                                                                                       http://saptraining.fh-wuerzburg.de/
+OT0000800043URL                                             SAP Press (Lernvideo 1) am SAP System an- und abmelden                                                                              http://s-prs.de/v4088hs
+  0001000044                                                Infosystem                                                                                                                          
+  0001100057                                                Debitor Stammdaten                                                                                                                  
+  0001100058                                                sensible 4-Augen Prinzip                                                                                                            
+TR0001200056FBCJ                                            Kassenbuch                                                                                          91B92744ADD7D211AE6A00A0C9EAD00F
+TR0001300059AS01                                             Anlage anlegen (Strunz RE: 205 Seite 50)                                                           EF52FFF89ADBD2118C1D0060B03C9BBE
+TR0001300060F-90                                            Gegen Kreditor (RE: Geschenkeinsel Rechnung einbuchen)                                              C952FFF89ADBD2118C1D0060B03C9BBE
+TR0001300061AFAB                                            Abschreibungslauf (optional)                                                                        0453FFF89ADBD2118C1D0060B03C9BBE
+TR0001300062AW01N                                           Asset Explorer/Abschreibung einsehen (optional)                                                     6C1E86C7F4E7D2119B410060B0671ACC
+TR0002900045XD01                                            Gesamt                                                                                              DE44556AFDD7D211A81C0060B03C2BA7
+TR0003000046MM01                                            Material & anlegen                                                                                                                  
+TR0003100047MB1C                                            Wareneingang Sonstige                                                                                                               
+TR0003200048VA11                                            Anfrage anlegen                                                                                                                     
+TR0003200049VA21                                            Angebot anlegen                                                                                                                     
+TR0003200050VA01                                            Kundenauftrag anlegen                                                                                                               
+TR0003300051VL01N                                           mit Bezug auf Kundenauftrag                                                                         712D08E50CECD211AB270060B03C3B0B
+TR0003300052VL02N                                           mit Bezug auf Kundenauftrag ändern                                                                  BE9BB88A8EECD211AB270060B03C3B0B
+TR0003400053VF01                                            Anlegen                                                                                             CE42556AFDD7D211A81C0060B03C2BA7
+TR0003500054FBL5                                            Debitoren/offene Posten                                                                             0343556AFDD7D211A81C0060B03C2BA7
+TR0003500055F-28                                            Zahlungseingang buchen/Faktura ausziffern (Belegfluss)                                                                              
+TR0003600066PA40                                            Personalmaßnahmen                                                                                   F89F9EEC4BD7D21194C40060B0686D73
+TR0003600067PA30                                            Pflegen                                                                                             F99F9EEC4BD7D21194C40060B0686D73
+TR0003600068PA20                                            Anzeigen                                                                                            FA9F9EEC4BD7D21194C40060B0686D73
+TR0003600069PA10                                            Personalakte                                                                                        FB9F9EEC4BD7D21194C40060B0686D73
+TR0003700063PPOSE                                           Anzeigen                                                                                            94B79EEC4BD7D21194C40060B0686D73
+TR0003700064PPOME                                           Ändern                                                                                              93B79EEC4BD7D21194C40060B0686D73
+TR0003800065PFCT                                            Aufgabenkatalog                                                                                     AAB79EEC4BD7D21194C40060B0686D73
+  0003900070                                                Abrechnung                                                                                                                          
+  0003900071                                                Folgeaktivitäten                                                                                                                    
+TR0004400072S_ALR_87012284                                  Bilanz/GuV                                                                                          4C723A8D49D7D211B11F0060B03C6BFB
+TR0004400073S_ALR_87012326                                  Kontenplan                                                                                          94723A8D49D7D211B11F0060B03C6BFB
+TR0004400074S_ALR_87012289                                  Beleg-Kompaktjournal                                                                                56723A8D49D7D211B11F0060B03C6BFB
+TR0005800075FD08                                            Einzeln                                                                                             E9BA2744ADD7D211AE6A00A0C9EAD00F
+TR0005800076FD09                                            Liste                                                                                               EABA2744ADD7D211AE6A00A0C9EAD00F
+TR0007000077PC00_M01_CALC_SIMU                              Schritt 1: Abr. Simulation                                                                          B7C8C2B8CAFED211AE6600A0C9EB0761
+TR0007000078PC00_M99_PA03_RELEA                             Schritt 2: Abrechnung freigeben (Verwaltungssatz)                                                   B8C8C2B8CAFED211AE6600A0C9EB0761
+TR0007000079PC00_M01_CALC                                   Schritt 3: Abrechnung starten (scharf)                                                              B9C8C2B8CAFED211AE6600A0C9EB0761
+TR0007000080PC00_M99_PA03_END                               Schritt 4: Abrechnung beenden (Verwaltungssatz)                                                     BCC8C2B8CAFED211AE6600A0C9EB0761
+TR0007000081PA20                                            Schritt 5: MA Anzeigen (IT=Abrechnungsstatus kontrollieren)                                         FA9F9EEC4BD7D21194C40060B0686D73
+TR0007000082PC00_M01_CEDT                                   Schritt 6: Entgeltnachweis                                                                          3B9C2F6201FED21194C50060B0686D73
+TR0007000083PC_PAYRESULT                                    Schritt 7: Abrechnungsergebnisse anzeigen                                                           49E7B9776CB1D311AE600800060DFD0C
+TR0007000084PA03                                            Verwaltungssatz (optional)                                                                          826148C43DB1D311AE600800060DFD0C
+TR0007100085PC00_M99_CIPE                                   Schritt 8: Buchungslauf erzeugen (Test-+Echtlauf)                                                   0AA19EEC4BD7D21194C40060B0686D73
+TR0007100086PCP0                                            Schritt 8: Buchungslauf bearbeiten (überführen in das FI)                                           0BA19EEC4BD7D21194C40060B0686D73
